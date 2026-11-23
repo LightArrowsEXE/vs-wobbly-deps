@@ -1,0 +1,24 @@
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vs-wobbly-deps"
+version = "1.0.0"
+description = "VapourSynth dependencies for Wibbly/Wobbly"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "vapoursynth>=78",
+    "vapoursynth-dmetrics>=2",
+    "vapoursynth-fieldhint>=5",
+    "vapoursynth-scxvid>=3",
+    "vapoursynth-vivtc>=2",
+    "vapoursynth-bestsource>=17",
+    "vapoursynth-lsmas>=1310",
+    "vapoursynth-d2vsource>=1.4",
+]
+
+[tool.setuptools]
+packages = []
