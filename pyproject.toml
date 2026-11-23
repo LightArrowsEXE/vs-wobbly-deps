@@ -18,6 +18,7 @@ dependencies = [
     "vapoursynth-bestsource>=17",
     "vapoursynth-lsmas>=1310",
     "vapoursynth-d2vsource>=1.4",
+    "vapoursynth-iscombed>=2.1",
 ]
 
 [tool.setuptools]

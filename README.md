@@ -3,11 +3,6 @@
 A Python metapackage
 for installing [Wobbly](https://github.com/Jaded-Encoding-Thaumaturgy/Wobbly)'s dependencies.
 
-> [!WARNING]
-> Note that this metapackage
-> is missing the [TDeintMod](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TDeintMod) plugin!
-> It will be added once wheels exist.
-
 ## Installation
 
 `vs-wobbly-deps` is distributed via PyPi.
@@ -21,7 +16,7 @@ You can also add this package to an existing `uv` project
 by using the following command:
 
 ```shell
-uv add vs-wobbly-deps
+uv add vs-wobbly-deps --group wobbly
 ```
 
 Remember to configure and legacy register
