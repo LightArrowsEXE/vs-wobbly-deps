@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vs-wobbly-deps"
-version = "1.0.0"
+version = "1.1.0"
 description = "VapourSynth dependencies for Wibbly/Wobbly"
 readme = "README.md"
 requires-python = ">=3.12"
